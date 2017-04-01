@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Parallax</title>
+		<link href="css/jquery.bxslider.css" rel="stylesheet" />
+		<link href="style.css" rel="stylesheet">
+		<link href="css/nav.css" rel="stylesheet">
+		<link rel="shortcut icon" type="image/png" href="img/w3-favicon.png"/>
+	</head>
+	<body>
+		<a name="home">
+	<!--- Start Navigation -->
+			<script src="js/jquery-1.11.2.min.js"></script>
+			<script src="js/main.js"></script> <!--- For Navigation -->
+	<!---ADD NAVIGATION HERE-->
+		<div class="nav-outer">
+			<div class="nav-wrap">
+				<nav class="navigation">
+					<div class="logo">
+						<img src="img/logo.png" alt="logo.png">
+						<div class='nav' nav-menu-style="yogo">
+							<ul class="nav-menu">
+								<li><a href="#home">Home</a></li>
+								<li><a href="#about">About</a></li>
+								<li><a href="#services">Services</a></li>
+								<li><a href="#reviews">Reviews</a></li>
+								<li><a href="#contact">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+
+		</div>
+		<div class="nav-clear"></div>
+	<!--- End Navigation -->
+		<div class="clearfix"></div>
+	<!--- Start Slider -->
+			<script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
+			<div class="slide-wrap">
+				<section class="slider">
+					<ul class="slider1">
+						<li><img src="https://www.w3newbie.com/wp-content/uploads/slider-image-3.png"></li>
+						<li><img src="https://www.w3newbie.com/wp-content/uploads/slider-image-2.png"></li>
+						<li><img src="https://www.w3newbie.com/wp-content/uploads/slider-image-1.png"></li>
+					</ul>
+				</section>
+	<!--ADD IMAGE SLIDES HERE-->
+			</div>
+			<script type="text/javascript">
+				$('.slider1').bxSlider({
+					mode: 'fade',
+					captions: false,
+					auto:true,
+					pager:false,
+
+				});
+				$('.slider2').bxSlider({
+					pager:false,
+					captions: true,
+					maxSlides: 3,
+					minSlides: 1,
+					slideWidth: 230,
+					slideMargin: 10
+				});
+				$('.slider3').bxSlider({
+					mode: 'fade',
+					captions: false,
+					auto:true,
+					pager:false,
+					controls:false,
+				});
+			</script>
+	<!--- End Slider -->
+
+	<a name="about">
+	<!--start banner wrapper -->
+		<div id="banner-wrapper">
+			<h1>Welcome to our Website</h1>
+			<div class="one-half">
+				<h3>Heading Title Section</h3>
+				<p>Lorem ipsum dolor sit amet, duo ut perfecto delicata necessitatibus. Eam graeci malorum ne, qui dolorem WHAT, hinc partiendo id has. </p>
+			</div>
+			<div class="one-half">
+
+				<h3>Heading Title Section</h3>
+				<p>Lorem ipsum dolor sit amet, duo ut perfecto delicata necessitatibus. Eam graeci malorum ne, qui dolorem WHAT, hinc partiendo id has. </p>
+			</div>
+		</div> <!--end ob banner wrapper-->
+		<div class="clearfixed">
+		</div>
+		<!-- start parallax section -->
+			<a name="services">
+		<section class="parallax-1">
+			<div class="parallax-inner">
+				<section class="one-third">
+					<h3>Heading Title</h3>
+					<p>Lorem ipsum dolor sit amet, duo ut perfecto delicata necessitatibus. Eam graeci malorum ne, qui dolorem vituperata eu, hinc partiendo id has. Sit nihil appellantur ei, oporteat sensibus has ei. Est cu magna oporteat erroribus, cu eam meis graeco option. In tale percipitur sit.</p>
+				</section>
+				<section class="one-third">
+					<h3>Heading Title</h3>
+					<p>Lorem ipsum dolor sit amet, duo ut perfecto delicata necessitatibus. Eam graeci malorum ne, qui dolorem vituperata eu, hinc partiendo id has. Sit nihil appellantur ei, oporteat sensibus has ei. Est cu magna oporteat erroribus, cu eam meis graeco option. In tale percipitur sit.</p>
+				</section>
+				<section class="one-third">
+					<h3>Heading Title</h3>
+					<p>Lorem ipsum dolor sit amet, duo ut perfecto delicata necessitatibus. Eam graeci malorum ne, qui dolorem vituperata eu, hinc partiendo id has. Sit nihil appellantur ei, oporteat sensibus has ei. Est cu magna oporteat erroribus, cu eam meis graeco option. In tale percipitur sit.</p>
+				</section>
+			</div>
+		</section>
+		<!--end of parallax-->
+		<div class="clearfixed">
+		</div>
+		<!-- start banner wrapper -->
+		<section class="left-col">
+			<h1>Heading title text</h1>
+			<p>
+				Ne mel zril indoctum intellegam. Quis alterum sea an, an dicta putant delenit est, qui putant salutandi suavitate ut.
+			</p>
+			<p>
+				Ne mel zril indoctum intellegam. Quis alterum sea an, an dicta putant delenit est, qui putant salutandi suavitate ut.
+			</p>
+			<p>
+				Ne mel zril indoctum intellegam. Quis alterum sea an, an dicta putant delenit est, qui putant salutandi suavitate ut.
+			</p>
+		</section>
+			<a name="reviews">
+		<section class="sidebar">
+			<img src="https://www.w3newbie.com/wp-content/uploads/beach-building.jpg" alt="">
+		</section>
+		<!-- end banner wrapper-->
+		<div class="clearfixed">
+		</div>
+		<!-- start parallax section -->
+		<section class="parallax-2">
+			<div class="parallax-inner">
+				<section class="one-third">
+					<h3>Heading Title</h3>
+					<p>Lorem ipsum dolor sit amet, duo ut perfecto delicata necessitatibus. Eam graeci malorum ne, qui dolorem vituperata eu, hinc partiendo id has. Sit nihil appellantur ei, oporteat sensibus has ei. Est cu magna oporteat erroribus, cu eam meis graeco option. In tale percipitur sit.</p>
+				</section>
+				<section class="one-third">
+					<h3>Heading Title</h3>
+					<p>Lorem ipsum dolor sit amet, duo ut perfecto delicata necessitatibus. Eam graeci malorum ne, qui dolorem vituperata eu, hinc partiendo id has. Sit nihil appellantur ei, oporteat sensibus has ei. Est cu magna oporteat erroribus, cu eam meis graeco option. In tale percipitur sit.</p>
+				</section>
+				<section class="one-third">
+					<h3>Heading Title</h3>
+					<p>Lorem ipsum dolor sit amet, duo ut perfecto delicata necessitatibus. Eam graeci malorum ne, qui dolorem vituperata eu, hinc partiendo id has. Sit nihil appellantur ei, oporteat sensibus has ei. Est cu magna oporteat erroribus, cu eam meis graeco option. In tale percipitur sit.</p>
+				</section>
+			</div>
+		</section>
+		<!--end of parallax section-->
+		<div class="clearfixed">
+		</div>
+		<!-- start banner wrapper-->
+			<a name="contact">
+		<div id="banner-wrapper">
+			<h1>Full Width Heading Title Section</h1>
+			<section class="one-third">
+				<img src="https://www.w3newbie.com/wp-content/uploads/beach-camera.png">
+				<h3>Heading Title Text</h3>
+				<p>Ne mel zril indoctum intellegam. Quis alterum sea an, an dicta putant delenit est, qui putant salutandi suavitate ut. Per utamur iudicabit ei, duis virtute ad mei, natum probatus qui cu. Usu ex principes imperdiet, ad quo dicam bonorum delenit.</p>
+
+			</section>
+			<section class="one-third">
+				<img src="https://www.w3newbie.com/wp-content/uploads/girl-camera.png">
+				<h3>Heading Title Text</h3>
+				<p>Ne mel zril indoctum intellegam. Quis alterum sea an, an dicta putant delenit est, qui putant salutandi suavitate ut. Per utamur iudicabit ei, duis virtute ad mei, natum probatus qui cu. Usu ex principes imperdiet, ad quo dicam bonorum delenit.</p>
+
+			</section>
+			<section class="one-third">
+				<img src="https://www.w3newbie.com/wp-content/uploads/girl-beach.png">
+				<h3>Heading Title Text</h3>
+				<p>Ne mel zril indoctum intellegam. Quis alterum sea an, an dicta putant delenit est, qui putant salutandi suavitate ut. Per utamur iudicabit ei, duis virtute ad mei, natum probatus qui cu. Usu ex principes imperdiet, ad quo dicam bonorum delenit.</p>
+
+			</section>
+		</div>
+		<!-- end banner wrapper-->
+		<footer>
+			<p>&copy; The Parallax Template</p>
+		</footer>
+
+	  <p style="text-align: center;"><a href="https://www.w3newbie.com/survey/" target="_blank">Designed by Drew Ryan - w3newbie</a></p>
+
+	</body>
+</html>
